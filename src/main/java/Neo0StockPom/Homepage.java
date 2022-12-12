@@ -23,6 +23,7 @@ public class Homepage {
 	@FindBy(xpath="//span[text()='Logout']")private WebElement logoutButton ;
 	
 	
+	
 	public Homepage(WebDriver driver)
 	
 	{
@@ -30,6 +31,7 @@ public class Homepage {
 	}
 	
 	public void PopUpHandle(WebDriver driver)
+	
 	{
 		
 		if(okButton.isDisplayed())
