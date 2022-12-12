@@ -16,6 +16,7 @@ public class Password {
 	
 	public  Password(WebDriver driver)
 	{
+		
 	PageFactory.initElements( driver,this);	
 	}
 	
